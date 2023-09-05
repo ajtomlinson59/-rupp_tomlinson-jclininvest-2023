@@ -20,7 +20,11 @@ All the data and scripts necessary to generate the analysis and figures presente
         +- NovaA-230
     +- sun1
         +- NovaA-296
-    +- 
+    +- Glp1R-LepR Study
+        +- longitudinal study
+        +- Body Composition
+        +- ELISA
+        +- TSE
 +- scripts
     +- conservation.R
     +- figure_functions.R
