@@ -4,38 +4,36 @@
 All the data and scripts necessary to generate the analysis and figures presented in Rupp et al. mansucript (see citation below).
 
 ## Files
-```
-+- data
-    +- GSE162603
-        +- GSE162603_counts.csv.gz
-        +- GSE162603_metadata.csv.gz
-    +- GSE172203
-        +- GSE172203_barcodes.tsv.gz
-        +- GSE172203_features.tsv.gz
-        +- GSE172203_matrix.mtx.gz
-        +- GSE172203_metadata.csv.gz
-    +- mbh
-        +- NovaA-219
-        +- NovaA-225
-        +- NovaA-230
-    +- sun1
-        +- NovaA-296
-    +- Glp1R-LepR Study
-        +- longitudinal study
-        +- Body Composition
-        +- ELISA
-        +- TSE
-+- scripts
-    +- conservation.R
-    +- figure_functions.R
-    +- figures.R
-    +- GSE162603.R
-    +- scrublet.py
-    +- snrna-seq_functions.R
-    +- sun1.R
-+- environment.yml
-+- README.md
-```
+- data
+    - Glp1R-LepR Study
+        - Body Composition
+        - ELISA
+        - longitudinal study
+        - TSE
+    - GSE162603
+        - GSE162603_counts.csv.gz
+        - GSE162603_metadata.csv.gz
+    - GSE172203
+        - GSE172203_barcodes.tsv.gz
+        - GSE172203_features.tsv.gz
+        - GSE172203_matrix.mtx.gz
+        - GSE172203_metadata.csv.gz
+    - mbh
+        - NovaA-219
+        - NovaA-225
+        - NovaA-230
+    - sun1
+        - NovaA-296
+- scripts
+    - conservation.R
+    - figure_functions.R
+    - figures.R
+    - GSE162603.R
+    - scrublet.py
+    - snrna-seq_functions.R
+    - sun1.R
+    - environment.yml
+- README.md
 
 ## Pipeline
 This pipeline is best run with [anaconda](https://www.anaconda.com/products/individual) to replicate the original environment. This is optional, assuming all available packages and tools are installed and the appropriate version. See `environment.yml` for the package versions used in this analysis.
