@@ -1,0 +1,11 @@
+name: Glp1r
+channels:
+  - conda-forge
+  - bioconda
+  - r
+dependencies:
+  - bioconductor-deseq2
+  - scrublet
+  - r-seurat
+  - bioconductor-scran
+  - bioconductor-scater
